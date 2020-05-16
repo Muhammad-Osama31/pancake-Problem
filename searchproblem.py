@@ -1,0 +1,13 @@
+from abc import abstractmethod
+
+class SearchProblem(object):
+
+def __init__(self, params):pass
+
+def initialState(self): pass
+@abstractmethod
+def succesorFunction(self,currentState): pass
+@abstractmethod
+def isGoal(self,currentState): pass
+@abstractmethod
+def __str__(self) : pass
